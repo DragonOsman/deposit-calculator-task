@@ -15,7 +15,6 @@ function calculateRate() {
   moneyBefore.textContent = `${initialValue}`;
 
   const result = Math.round(initialValue * (1 + percentInterest * years));
-  console.log(result);
 
   const height = result / initialValue * 100;
   const divAfter = document.getElementById("height-after");
